@@ -225,3 +225,12 @@ hr{
     margin-top: 50px;
     text-align: center;
 }
+
+/* Footer */
+footer{
+    display: flex;
+    max-width: 1140px;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    margin-top: 132px;
+}
