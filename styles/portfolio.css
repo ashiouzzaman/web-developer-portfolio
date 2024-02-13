@@ -18,10 +18,15 @@
 
 /* Header */
 
+header{
+    background: #FFF8F3 ;
+
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 150px;
 }
 .nav-title{
     color:#181818;
@@ -37,7 +42,19 @@ nav ul{
 nav li{
     list-style: none;
     padding-right: 50px;
+    font-size: 20px;
 }
 nav a{
     text-decoration: none;
+}
+
+/* Banner */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .header-image{
+    width: 500px;
 }
