@@ -27,11 +27,12 @@
 }
 
 .section-description {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 30px;
     /* max-width: 828px; */
 }
 
@@ -112,8 +113,41 @@ nav a {
     margin-bottom: 30px;
 }
 
+/* Main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 132px;
+}
+
 /* About */
-.about{
+.about {
     background-color: #FFF8F3;
     padding: 132px 156px;
+    border-radius: 10px;
+}
+
+.about-info-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-description {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-title {
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
