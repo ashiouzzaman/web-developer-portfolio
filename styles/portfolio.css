@@ -155,7 +155,7 @@ main section {
 /* What i do */
 .skills-container {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .skills {
@@ -174,10 +174,54 @@ main section {
 }
 
 .skill-description {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     margin-top: 20px;
     max-width: 200px;
+}
+
+/* Resume */
+.resume-container {
+    display: flex;
+    gap: 72px;
+    margin-top: 112px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.institution {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 512px;
+}
+hr{
+    background: #D1D1D1;
+    margin: 30px 0;
+}
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
