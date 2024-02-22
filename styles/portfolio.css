@@ -124,16 +124,21 @@ main section {
 }
 
 /* About */
-.about {
+.about-container{
+    height: 550px;
     background-color: #FFF8F3;
-    padding: 132px 156px;
     border-radius: 10px;
+    padding: 0px 156px;
+    display: flex;
+    align-items: center;
+
 }
 
 .about-info-container {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .info-description {
@@ -239,8 +244,16 @@ footer {
 
 }
 
+.footer-column .section-title{
+    text-align: left;
+}
+
 .footer-column {
     width: 50%;
+}
+
+.contact{
+    margin-top: 28px;
 }
 
 .footer-column input[type="text"],
